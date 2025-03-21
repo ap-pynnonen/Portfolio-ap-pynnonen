@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/Portfolio-ap-pynnonen/static/css/main.cd2400cb.css",
+    "main.js": "/Portfolio-ap-pynnonen/static/js/main.089856ec.js",
+    "static/media/drawing2.PNG": "/Portfolio-ap-pynnonen/static/media/drawing2.d45e0c8f17f5388801dd.PNG",
+    "static/media/drawing1.PNG": "/Portfolio-ap-pynnonen/static/media/drawing1.dff74546ac62de6b9ca7.PNG",
+    "static/media/drawing3.PNG": "/Portfolio-ap-pynnonen/static/media/drawing3.b0668c182807cd8c2fe7.PNG",
+    "static/media/webproject2.PNG": "/Portfolio-ap-pynnonen/static/media/webproject2.c779b46e14bf39020e52.PNG",
+    "static/media/webproject1.PNG": "/Portfolio-ap-pynnonen/static/media/webproject1.279dd39d84126ca0585f.PNG",
+    "static/media/Hammer2.PNG": "/Portfolio-ap-pynnonen/static/media/Hammer2.33b1e444d18173be64e8.PNG",
+    "static/media/Hammer1.PNG": "/Portfolio-ap-pynnonen/static/media/Hammer1.de750fcb37440cfb6fa9.PNG",
+    "static/media/maisema2.png": "/Portfolio-ap-pynnonen/static/media/maisema2.45ce1fbad037caf88920.png",
+    "static/media/Kartta_datapisteet.JPG": "/Portfolio-ap-pynnonen/static/media/Kartta_datapisteet.fc689b40cf4d1704666d.JPG",
+    "static/media/render2.png": "/Portfolio-ap-pynnonen/static/media/render2.8ff2f769a31a4a7b5188.png",
+    "static/media/maisema4.png": "/Portfolio-ap-pynnonen/static/media/maisema4.2d072d5d30b57b3f98a4.png",
+    "static/media/render1.png": "/Portfolio-ap-pynnonen/static/media/render1.88ee3fb772f2e1197060.png",
+    "static/media/Graafi_ajoneuvot&nopeudet3.JPG": "/Portfolio-ap-pynnonen/static/media/Graafi_ajoneuvot&nopeudet3.afcad654226910b8d549.JPG",
+    "static/media/Graafi_ajoneuvot&nopeudet.JPG": "/Portfolio-ap-pynnonen/static/media/Graafi_ajoneuvot&nopeudet.66ce23663af7ba114961.JPG",
+    "static/media/Graafi_ajoneuvot&nopeudet2.JPG": "/Portfolio-ap-pynnonen/static/media/Graafi_ajoneuvot&nopeudet2.1dee5f1de339f137917c.JPG",
+    "static/media/background-image-gradient2.jpg": "/Portfolio-ap-pynnonen/static/media/background-image-gradient2.f8e4984a0a40404e4625.jpg",
+    "static/media/star4.png": "/Portfolio-ap-pynnonen/static/media/star4.e622fc4caa4599ebe018.png",
+    "static/media/star3.png": "/Portfolio-ap-pynnonen/static/media/star3.6718a38a91f08747784e.png",
+    "static/media/star2.png": "/Portfolio-ap-pynnonen/static/media/star2.630e0abc9d4d95520a6f.png",
+    "static/media/rule2.PNG": "/Portfolio-ap-pynnonen/static/media/rule2.4505aff51c86f2f9fa46.PNG",
+    "static/media/star5.png": "/Portfolio-ap-pynnonen/static/media/star5.29f3327d9031f85ebf7c.png",
+    "static/media/star1.PNG": "/Portfolio-ap-pynnonen/static/media/star1.eb05c876bf8e2f588371.PNG",
+    "static/media/rule1.PNG": "/Portfolio-ap-pynnonen/static/media/rule1.bdf55098b4b26e14b370.PNG",
+    "static/media/me.PNG": "/Portfolio-ap-pynnonen/static/media/me.262bfa5d681e007beeb2.PNG",
+    "static/media/Autostore.png": "/Portfolio-ap-pynnonen/static/media/Autostore.c7fc7b7176058bfa7f35.png",
+    "static/media/drawing7.jpg": "/Portfolio-ap-pynnonen/static/media/drawing7.10bb50ed611fd2b6e6ff.jpg",
+    "static/media/drawing6.jpg": "/Portfolio-ap-pynnonen/static/media/drawing6.aa0f5ac61cb547286429.jpg",
+    "static/media/drawing5.jpg": "/Portfolio-ap-pynnonen/static/media/drawing5.0074b8f50d9f46c4dcc4.jpg",
+    "static/media/drawing4.jpg": "/Portfolio-ap-pynnonen/static/media/drawing4.1ab6a8186a747c4e6e11.jpg",
+    "index.html": "/Portfolio-ap-pynnonen/index.html",
+    "main.cd2400cb.css.map": "/Portfolio-ap-pynnonen/static/css/main.cd2400cb.css.map",
+    "main.089856ec.js.map": "/Portfolio-ap-pynnonen/static/js/main.089856ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd2400cb.css",
+    "static/js/main.089856ec.js"
+  ]
+}
