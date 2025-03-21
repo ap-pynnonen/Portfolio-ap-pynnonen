@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+  }
+
+.nav-bg {
+/*
+  background-color: #382354;
+*/
+background-color: #8f4de8;
+}
+
+.CardBackground {
+  background-color: #592e94;
+}
+
+.nav-font {
+  color: aliceblue;
+}
+
+.Carousel-image {
+  text-align: center;
+}
