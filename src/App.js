@@ -6,10 +6,11 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import background from "./img/background-image-gradient2.jpg"
 
 function App() {
   return (
-    <div style={{ backgroundImage: "url(/background-image-gradient2.jpg)",
+    <div style={{ backgroundImage: `url(${background})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
