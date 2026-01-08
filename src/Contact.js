@@ -3,9 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import "./styles.css";
+import { useLocalization } from './LocalizationProvider';
 
 const Contact = () => {
-
+    const { t } = useLocalization();
     const PaddR = "10%";
     const PaddL = "10%";
     const PaddTop = "30px";
@@ -20,11 +21,11 @@ const Contact = () => {
                 <Col xs={10}>
                     <Card bg='dark'>
                         <Card.Body style={{color: 'white', paddingTop: PaddTop, paddingBottom: PaddBot}}>
-                            <Card.Title style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TitleFontSize}}>Contact</Card.Title>
-                            <Card.Text style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TextFontSize}}>Email: ap.pynnonen@gmail.com</Card.Text>
-                            <Card.Text style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TextFontSize}}>LinkedIN: <a href='https://linkedin.com/in/aleksi-pynnönen-1b2940205'>Aleksi Pynnönen</a></Card.Text>
+                            <Card.Title style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TitleFontSize}}>{t("contact.contact")}</Card.Title>
+                            <Card.Text style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TextFontSize}}>{t("contact.email")}: ap.pynnonen@gmail.com</Card.Text>
+                            <Card.Text style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TextFontSize}}>{t("contact.linkedin")}: <a href='https://linkedin.com/in/aleksi-pynnönen-1b2940205'>Aleksi Pynnönen</a></Card.Text>
                             <Card.Text style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TextFontSize}}>Git: <a href='https://github.com/ap-pynnonen?tab=repositories'>repositories</a></Card.Text>
-                            <Card.Text style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TextFontSize}}>Phone: 0404148775</Card.Text>
+                            <Card.Text style={{paddingRight: PaddR, paddingLeft: PaddL, fontSize: TextFontSize}}>{t("contact.phone")}: 0404148775</Card.Text>
                         </Card.Body>
                     </Card>
                 </Col>

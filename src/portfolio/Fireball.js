@@ -3,8 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
 import "../styles.css";
+import { useLocalization } from '../LocalizationProvider';
 
 const Fireball = (props) => {
+    const { t } = useLocalization();
     return (
         <Container>
             <Row>
@@ -12,9 +14,9 @@ const Fireball = (props) => {
                 <Col xs={props.ColSize[1]}>
                     <Card bg='dark'>
                         <Card.Body style={{color: 'white', paddingTop: props.PaddTop, paddingBottom: props.PaddBot}}>
-                            <Card.Title style={{paddingRight: props.PaddR, paddingLeft: props.PaddL, fontSize: props.TitleFontSize}}>Fireball animation</Card.Title>
-                            <Card.Text style={{paddingRight: props.PaddR, paddingLeft: props.PaddL, fontSize: props.TextFontSize}}>Fireball 2d short animation for interface and usability course final exercise.</Card.Text>
-                            <Card.Text style={{paddingRight: props.PaddR, paddingLeft: props.PaddL, fontSize: props.TextFontSize}}>The animation was made with Photoshop and Premiere.</Card.Text>
+                            <Card.Title style={{paddingRight: props.PaddR, paddingLeft: props.PaddL, fontSize: props.TitleFontSize}}>{t("portfolio.animation")}</Card.Title>
+                            <Card.Text style={{paddingRight: props.PaddR, paddingLeft: props.PaddL, fontSize: props.TextFontSize}}>{t("portfolio.animationpara1")}</Card.Text>
+                            <Card.Text style={{paddingRight: props.PaddR, paddingLeft: props.PaddL, fontSize: props.TextFontSize}}>{t("portfolio.animationpara2")}</Card.Text>
                             <div style={{paddingRight: props.PaddR, paddingLeft: props.PaddL}}>
                             <iframe width="960" height="600" src="https://www.youtube.com/embed/g48FH9tTbnY?si=wIhECo1VFkKfMizp" title="YouTube video player" frameborder="0"
                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
